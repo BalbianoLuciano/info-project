@@ -1,0 +1,38 @@
+.quick-picks-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.quick-pick-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.quick-pick-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.quick-pick-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-pick-name {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.quick-pick-artist {
+  color: #cccccc;
+}
+
+.title-container-quick{
+    padding-left: 20px;
+    padding-right: 20px;
+}
