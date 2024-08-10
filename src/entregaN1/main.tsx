@@ -15,8 +15,8 @@ const Main: React.FC = () => {
       <MusicGenres />
       <ListenAgain />
       <Artists />
-      <Recommended />
       <QuickPicks />
+      <Recommended />
       <Footer />
       {/* Otros componentes irán aquí */}
     </div>
