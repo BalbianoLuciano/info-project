@@ -22,6 +22,7 @@ const Recommended: React.FC = () => {
       subtitle="Recommended albums"
       profileImage={profile}
       items={playlists}
+      last={true}
     />
   );
 };
