@@ -1,0 +1,54 @@
+.media-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.last-item{
+  margin-bottom: 100px;
+}
+.media-items {
+  display: flex;
+  gap: 20px;
+}
+
+.media-item-card {
+  background-color: #1a1a1a;
+  overflow: hidden;
+  width: 300px;
+  cursor: pointer;
+}
+
+.media-item-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.rounded-image {
+  border-radius: 50%;
+}
+
+.media-item-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.rounded-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media-item-name {
+  font-weight: bold;
+}
+
+.media-item-artist {
+  color: #cccccc;
+}

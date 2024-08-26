@@ -1,0 +1,51 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.first-container-title{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile-image {
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.arrows {
+  font-size: xx-large;
+  margin-right: 30px;
+}
+
+.play-all-button{
+  margin-right: 50px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #0C090B;
+  border-color: #ffffff;
+  border-radius: 5dvh;
+}
+
+.arrows i {
+  padding-right: 20px;
+  cursor: pointer;
+}
