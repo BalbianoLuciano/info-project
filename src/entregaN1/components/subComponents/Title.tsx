@@ -26,7 +26,7 @@ const Title: React.FC<TitleProps> = ({
       </div>
       <div className="first-container-title">
         {showPlayAllButton && (
-          <button className="play-all-button">Play ll</button>
+          <button className="play-all-button">Play all</button>
         )}
         <div className="arrows">
           <i className="bi bi-arrow-left-circle"></i>
