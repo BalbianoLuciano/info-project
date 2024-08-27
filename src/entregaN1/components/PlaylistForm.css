@@ -1,0 +1,77 @@
+.playlist-form-container {
+  display: flex;
+  gap: 50px; /* Reducido para ajustar mejor los espacios */
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.preview-section {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #282828;
+  border: 1px solid #777777;
+  border-radius: 4px;
+}
+
+.add-playlist-btn {
+  width: auto;
+  padding: 10px 30px;
+  background-color: #282828;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5dvh;
+  font-size: 16px;
+}
+
+.add-playlist-btn i {
+  padding-right: 10px;
+}
+
+.add-playlist-btn:hover {
+  background-color: red;
+}
+
+.playlist-item-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.playlist-image {
+  margin-bottom: 20px;
+  border-radius: 8px; /* Aumentado para una estética más suave */
+  object-fit: cover;
+}
+
+.playlist-item-preview strong {
+  font-size: 20px;
+}
+
+.playlist-item-preview p {
+  margin: 0;
+  font-size: 16px;
+  color: #cccccc;
+}
